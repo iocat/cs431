@@ -2,6 +2,8 @@ import java.io.*;
 import java.net.*;
 
 public class ClientTimer implements Closeable{
+    private static char INIT_CHARACTER = '0';
+
     private Socket socket;
     private long startTime;
     private BufferedReader reader;
@@ -24,9 +26,8 @@ public class ClientTimer implements Closeable{
     public long sendAndReceive(int count) throws Exception{
         char[] dat = new char[count];
         for (int i = 0; i < dat.length; i ++){
-            dat[i] = '0';
+            dat[i] = INIT_CHARACTER;
         }
-        System.out.println("\""+new String(dat)+"\"");
         // Start timer
         start();
         // Send byte stream
