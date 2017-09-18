@@ -6,12 +6,12 @@ all:
 client: Client.class
 
 Client.class:
-	javac -d . ./client/*.java
+	javac -d . ./src/client/*.java
 
 server: Server.class
 	
 Server.class:
-	javac -d . ./server/*.java
+	javac -d . ./src/server/*.java
 	
 clean:
-	rm -rf ./*.class ./server/*.class ./client/*.class
+	rm -rf ./*.class ./src/server/*.class ./src/client/*.class
