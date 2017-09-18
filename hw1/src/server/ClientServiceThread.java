@@ -13,6 +13,7 @@ public class ClientServiceThread implements Runnable, Closeable{
 
     public void run(){
         try{
+            // Write back the data being read
             this.writer.write(this.reader.readLine());
             this.writer.newLine();
             this.writer.flush();

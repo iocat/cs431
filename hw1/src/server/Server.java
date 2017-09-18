@@ -2,7 +2,7 @@
 import java.io.*;
 import java.net.*;
 
-public class ServerMain{
+public class Server{
         private static int DEFAULT_PORT = 12345;
         
         private static void reportErr(String e ){
