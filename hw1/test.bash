@@ -10,7 +10,7 @@ fi
 export ADDR=$1
 export PORT=$2
 
-for testnum in {1..3}
+for testnum in {1..4}
 do
     printf "\n"
     echo ">>>TESTING FOR" $((10**$testnum)) "BYTES<<<"
