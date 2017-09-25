@@ -1,8 +1,8 @@
-Software Engineer
+Udacity's Software Development Process
 
-The importance of software engineer. Computer: programming device. 
+define("Software Engineer")
 
-##### Software Engineer: 
+##### Software Engineer: #####
 discipline that complicates software development. 
 
 2 aspects:

@@ -16,3 +16,8 @@ Why VCS is useful:
 - Enable Collaboration.
 - Recover from deletions or edits
 - Conserve disk space.
+
+DON'T:
+- Save binary and executable files
+- Manage files manually by saving.
+

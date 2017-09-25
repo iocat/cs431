@@ -182,12 +182,12 @@ IEEE has a format:
   - Context
   - Objective
 2. User requirements
-3. ystems Requirements:
+3. Systems Requirements:
   - Functional and non-functional.
 
 Requirement's Properties:
 - Simple: each requirement should express one specific functionality the system has
-- Testable with metrics: .i.e. the system should be fast is useless.
+- Testable with metrics: .i.e. "the system should be fast" is useless.
 - Organized: 
   - related should be grouped
   - more abstract should further contain smaller
