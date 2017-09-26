@@ -51,9 +51,9 @@ Because:
 
 ---
 ## The lack of Completeness and Pertinence
-| Lack Completeness | Lack Pertinence |
+| Completeness | Pertinence |
 | - | - |
-|Identify all purpose of the system | Contains needed functionality but not technical details |
+|Identify all purpose of the system | Contains needed functionality but not technical details (given too much info not needed for this phase) |
 
 **Best Practices:** 
 1. Stakeholders must read the requirements documents
@@ -163,7 +163,7 @@ They can be complimentary but not mutually-exclusive.
 Limited Resources (not time, money, man power) -> prioritize into classes:  
 - Mandatory
 - Nice to have
-- Superfluous: might be in the next release 
+- Superfluous: might be in the next release. 
 
 # Steps:
 
@@ -174,7 +174,7 @@ Limited Resources (not time, money, man power) -> prioritize into classes:
 
 # SRS (Software Requirement Specifications)
 Some projects require this.
-THis is the way to communicate requirements to others. 
+This is the way to communicate requirements to others. 
 
 IEEE has a format:
 1. Introduction: 
@@ -190,6 +190,6 @@ Requirement's Properties:
 - Testable with metrics: .i.e. "the system should be fast" is useless.
 - Organized: 
   - related should be grouped
-  - more abstract should further contain smaller
+  - more abstract should further contain smaller sub requirement
   - priority should be clear.
 - Numbered (for traceability)
