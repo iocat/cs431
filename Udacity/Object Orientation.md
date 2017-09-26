@@ -21,15 +21,16 @@
 SWE Approach model software systems as a group of interacting objects. 
 
 ### OO Analysis
-Rumbaugh divides OOAnalysis into 3 aspects as part of the OMT (Object Modeling Technique)
+James E. Rumbaugh divides OOAnalysis into 3 aspects as part of the OMT (Object Modeling Technique)
 - Data: Object model
 - Functions: Functional Model
 - Control: Dynamic model of the System. Shows what state the system go through using state machine. Show how the system evolves.
 
-Jacobson + Booch -> Unified Modeling Language extends OMT. 
+Then later, Jacobson and Booch invented Unified Modeling Language extends OMT.
+
 How to OO Analysis: 
 
-**We went from Functional Oriented => Data Oriented.** 
+**We go from Functional Oriented => Data Oriented.** 
 
 Idea: Focus on real world object.
 1. Obtain/prepare textual description of problem.
@@ -52,7 +53,7 @@ Course Management System
 ## Unified Modelling Language
 __Structural Diagrams__: represent static characteristic of the system.
 
-## UML 1: Class Diagram: static structural view of the system tha models
+## UML 1: Class Diagram: static structural view of the system that models the following:
 * Classes and their structure
 * Relationship between classes
 
