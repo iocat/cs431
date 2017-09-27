@@ -10,7 +10,7 @@ Plug-in or add-on or add-in
 
 ## GIT
 Why VCS is useful:
-- Enfore discipline
+- Enforce discipline
 - Archive versions
 - Maintain a history.
 - Enable Collaboration.

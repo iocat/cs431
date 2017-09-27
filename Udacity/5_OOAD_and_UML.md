@@ -348,3 +348,6 @@ For each relevant class (logical-wise but not implementation wise), build a stat
 
 Course Management Example: 
 ![State Diagram](./static/state_diagram.png)
+
+
+> PHEW!!! This is tooooooo long :)
