@@ -181,5 +181,22 @@ Describe interaction between the class
 - Refine the diagram as we gather more requirements until we feel it's complete.
 
 ## UML 2: Component Diagram:
-
 Static view of components and their relationships. 
+
+In this diagram:
+1. Node = Component: a set of classes (in the class diagram design step) with a well-defined interface
+1. Edge = Relationship: "uses of" relationship.
+
+Can be used to represent an architecture.
+
+From the example: 
+- A component is a box with one or more exported interfaces. 
+- Another component may use dependent on relationship to exhibit that it uses those interface. 
+
+## UML 3: Deployment Diagram
+- Static deployment view of a system
+- Physical allocation of components to computational units (which components go to the server and which go into the client)
+- In this diagram: 
+    - Node: The computational unit
+    - Edge: Communication method
+
