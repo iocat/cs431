@@ -40,8 +40,8 @@ Descriptive architecture is changed due to:
 1. Lack of documented prescriptive architecture
 
 ## Architectural Degradation
-1/ ***Architectural drift*** introduction of architectural design decisions orthogonal to a system's prescriptive architecture. Add components that have nothing to do with the prescriptive design
-1/ ***Architectural erosion*** introduction of architectural design decisions that violate a system's prescriptive architecture. Implement the components in a way that violates the given prescriptive design.
+1. ***Architectural drift*** introduction of architectural design decisions orthogonal to a system's prescriptive architecture. Add components that have nothing to do with the prescriptive design
+1. ***Architectural erosion*** introduction of architectural design decisions that violate a system's prescriptive architecture. Implement the components in a way that violates the given prescriptive design.
 
 Results: degraded architecture.
 ***Recovery***: determine the SWA from the implementation then fix it to follow the prescriptive architecture.
