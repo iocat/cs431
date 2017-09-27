@@ -319,7 +319,7 @@ Course Management Example:
 Interaction diagram emphasizes the time ordering of messages between objects.
 
 Course Management Example:
-Example: ![Sequence Diagram](./static/sequence_diagram.png)
+![Sequence Diagram](./static/sequence_diagram.png)
 
 ## UML 6: State Transition Diagram:
 For each relevant class (logical-wise but not implementation wise), build a state machine that:
