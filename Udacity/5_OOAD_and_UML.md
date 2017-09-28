@@ -38,8 +38,11 @@ Idea: Focus on real world object.
 1. Underline adjectives => Attributes
 1. Underline active verbs => Operations
 
-__Running Example through out the UML Tutorial:__
+## __Running Example through out the UML Tutorial:__
+
 ``` markdown
+***The following requirements will be utilized for the rest of this note. Please examine it CAREFULLY***
+
 ### Course Management System
 1. The registration manager sets up the curriculum for a semester using a scheduling algorithm
 2. One course may have multiple course offerings
@@ -52,15 +55,15 @@ __Running Example through out the UML Tutorial:__
  
 ---
 # Unified Modelling Language
-# __Structural Diagrams__: 
+# __Structural Diagrams__ 
 represent static characteristic of the system.
 
-## UML 1: Class Diagram: 
+## UML 1: Class Diagram
 Static structural view of the system that models the following:
 * Classes and their structure
 * Relationship between classes
 
-### 1. Class: 
+### 1. Class
 
 | Class Name |
 |:-- |
@@ -184,7 +187,7 @@ Describe interaction between the class
 - Start with KISS diagram 
 - Refine the diagram as we gather more requirements until we feel it's complete.
 
-## UML 2: Component Diagram:
+## UML 2: Component Diagram
 Static view of components and their relationships. 
 
 In this diagram:
@@ -236,7 +239,7 @@ Describes the outside view of the system
 
  ```
 
- ### 1. Actor:
+ ### 1. Actor
  Entity: human or a device 
  -  plays at least one role.
  -  and multiple entities can play the same role.
@@ -308,20 +311,20 @@ Course Management Example:
 1. Planning: after prioritization we know which component can be implemented first.
 1. Testing: Define test cases even before.
 
-### 4. TIPS for creating:
+### 4. TIPS for creating
 - Use name that communicates purpose (purpose of the software)
 - Define one atomic behavior per use case
 - Define the flow event clearly
 - Provide only essential details
 - Factor variants
 
-## UML 5: Sequence Diagram:
+## UML 5: Sequence Diagram
 Interaction diagram emphasizes the time ordering of messages between objects.
 
 Course Management Example:
 ![Sequence Diagram](./static/sequence_diagram.png)
 
-## UML 6: State Transition Diagram:
+## UML 6: State Transition Diagram
 For each relevant class (logical-wise but not implementation wise), build a state machine that:
 - List all possible states of the class
 - All events that cause a transition from one state to another
